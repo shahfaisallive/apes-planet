@@ -1,0 +1,58 @@
+.navbar{
+    background-color: transparent;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-bottom: 2px groove rgb(117, 114, 114);
+    max-height: 70px;
+}
+.logo-img{
+    width: 60px;
+    margin-right: 50px;
+}
+.text_one{
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 16px;
+}
+.text_one:hover{
+    cursor: pointer;
+    color: #73DF4E;
+}
+.toggle-btn{
+    background-color: #73DF4E ;
+}
+.nav-connect-div{
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+}
+.wallet-connect-btn{
+    border: 1px solid #73DF4E;
+    background-color: transparent;
+    border-radius: 100px;
+    padding: 7px 15px 7px 15px;
+    color: white;
+    font-size: 14px;
+}
+.wallet-connect-btn:hover{
+    background-color:#73DF4E;
+}
+.search-icon{
+    width: 25px;
+    margin-right: 25px;
+}
+.wallet-icon{
+    width: 21px;
+    margin-right: 6px;
+    margin-top: -1px;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 600px){
+    .nav-connect-div{
+        width: 100%;
+        align-items: flex-start;
+        padding-left: 12px;
+    }
+}

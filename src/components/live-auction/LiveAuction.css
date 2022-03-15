@@ -1,0 +1,9 @@
+.auction-list-container{
+    justify-content: space-between;
+}
+.auction-single-div{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(212, 221, 218);
+    border-radius: 20px;
+}
