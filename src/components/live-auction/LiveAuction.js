@@ -1,33 +1,28 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './LiveAuction.css'
+
+import NftCard from './NftCard'
 
 const LiveAuction = () => {
   return (
-    <div className='container mt-5'>
+    <div className='container mt-5 pb-5'>
       <div className='row d-flex'>
-        <p className='heading1 text-start'>Live Auctions</p>
+        <div className='col-6'>
+          <p className='heading1 text-start'>Live Auctions</p>
+        </div>
+        <div className='col-6 d-flex justify-content-end'>
+          <Link to={'/explore-auctions'}>
+            <p className='heading2 text-start'>Explore More</p>
+          </Link>
+        </div>
       </div>
       <div className='row auction-list-container'>
-        <div className='col-sm-3'>
-          <div className='auction-single-div'>
+        <NftCard image={'/images/ape1.png'} />
+        <NftCard image={'/images/ape2.png'}/>
+        <NftCard image={'/images/ape3.png'}/>
+        <NftCard image={'/images/ape4.png'}/>
 
-          </div>
-        </div>
-        <div className='col-sm-3'>
-          <div className='auction-single-div'>
-
-          </div>
-        </div>
-        <div className='col-sm-3'>
-          <div className='auction-single-div'>
-
-          </div>
-        </div>
-        <div className='col-sm-3'>
-          <div className='auction-single-div'>
-
-          </div>
-        </div>
       </div>
     </div>
   )

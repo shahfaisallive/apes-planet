@@ -3,7 +3,80 @@ body{
     padding-top: 80px;
 }
 .heading1{
-    font-size: 20px;
+    font-size: 24px;
     color: #ffffff;
     font-weight: 600;
+}
+.heading2{
+    font-size: 16px;
+    color: rgb(243, 235, 235);
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.heading2:hover{
+    color: #86868d;
+}
+.nft-single-div{
+    width: 100%;
+    background-color: #343444;
+    border-radius: 20px;
+    padding: 13px;
+}
+.nft-ape-img{
+    width: 100%;
+    border-radius: 15px;
+}
+.nft-card-btn1{
+    background-color: rgb(43, 70, 226);
+    border: none;
+    border-radius: 8px;
+    padding: 2px;
+    color: white;
+    width: 35px;
+    font-size: 10px;
+    right: 0px;
+    top: 4px;
+    position: absolute;
+}
+.nft-card-owner-img{
+    width: 32px;
+    border-radius: 10px;
+}
+.nft-card-txt1{
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+.nft-card-txt2{
+    font-size: 12px;
+    color: #86868d;
+}
+.nft-card-txt3{
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+.nft-info-box{
+    line-height: 0.3;
+    padding-top: 5px;
+    padding: 0px;
+}
+.nft-bid-btn{
+    background-color: transparent;
+    border: 2px solid #4F41F4;
+    border-radius: 50px;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    padding: 5px 10px 5px 5px;
+}
+.nft-history-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    color: rgb(194, 181, 181);
+    font-weight: 500;
+    width: 100%;
+    margin-top: 7px;
 }

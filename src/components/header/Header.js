@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel'
 
 const Header = () => {
     return (
-        <div className='container'>
+        <div className='container pb-5'>
             {/* <Carousel showArrows={true}>
                 <div>
                     <img src={"/images/demopic.jpg"} />
@@ -20,7 +20,7 @@ const Header = () => {
                 </div>
             </Carousel> */}
             <div className='row d-flex'>
-                <div className='col-6 pt-5 pl-3 header-left'>
+                <div className='col-md-6 pt-5 pl-3 header-left'>
                     <p className='header-txt1 mt-5'>Apes Planet</p>
                     <p className='header-txt4'>is an entire unique</p>
                     <span className='d-flex'>
@@ -34,8 +34,8 @@ const Header = () => {
                         Explore
                     </button>
                 </div>
-                <div className='col-6 header-right'>
-                    <img className='header-demo-img' src={'/images/header-demo.png'} alt='headerpic' />
+                <div className='col-md-6 header-right'>
+                    <img className='header-img' src={'/images/header-img.png'} alt='headerpic' />
                 </div>
             </div>
         </div>

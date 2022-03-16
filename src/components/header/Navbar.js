@@ -2,6 +2,8 @@ import React from 'react'
 import { NavLink } from 'react-bootstrap'
 import './Navbar.css'
 import { ReactComponent as SearchIcon } from '../../media/nav-search.svg'
+import { ReactComponent as WalletIcon } from '../../media/wallet.svg'
+
 
 const Navbar = () => {
     return (
@@ -38,6 +40,7 @@ const Navbar = () => {
                         </li>
                         <li className='nav-item'>
                             <button className='wallet-connect-btn'>
+                                {/* <WalletIcon /> */}
                                 <img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/ffffff/external-wallet-interface-kiranshastry-solid-kiranshastry-1.png" alt='wallet-icon' className='wallet-icon' />
                                 Wallet connect
                             </button>

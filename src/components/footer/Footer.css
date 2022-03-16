@@ -1,0 +1,48 @@
+.footer-wrapper{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+.ft.logo{
+    width: 100%;
+}
+.ft-heading{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.ft-txt1{
+    color: white;
+    font-size: 14px;
+}
+.ft-txt1-link{
+    color: white;
+    font-size: 14px;
+}
+.ft-txt1-link:hover{
+    color: rgb(211, 197, 197);
+}
+.ft-link:hover{
+    text-decoration: none;
+}
+.ft-input{
+    border: 1px solid #86868d;
+    background-color: transparent;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.ft-input-btn{
+    margin-left: -50px;
+    height: 45px;
+    width: 50px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(204, 78, 61);
+}
+.ft-input::placeholder{
+    font-size: 13px;
+}
+

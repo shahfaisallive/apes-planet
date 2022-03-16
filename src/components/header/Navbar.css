@@ -1,12 +1,12 @@
 .navbar{
-    background-color: transparent;
+    background-color: #141420;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 600;
     border-bottom: 2px groove rgb(117, 114, 114);
     max-height: 70px;
 }
 .logo-img{
-    width: 60px;
+    width: 50px;
     margin-right: 50px;
 }
 .text_one{

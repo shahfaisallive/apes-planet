@@ -1,0 +1,19 @@
+.seller-items-container{
+    justify-content: space-between;
+}
+.seller-item-div{
+    justify-content: center;
+    line-height: 0.5;
+}
+.seller-item-img{
+    width: 100px;
+}
+.seller-item-txt1{
+    font-size: 16px;
+    color: white;
+}
+.seller-item-txt2{
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}
