@@ -1,6 +1,8 @@
 import React from 'react'
 import './Footer.css'
 
+
+
 const Footer = () => {
   return (
     <div className='footer-wrapper container-fluid d-flex'>
@@ -46,23 +48,27 @@ const Footer = () => {
                 <input type='text' className='ft-input' placeholder='info@yourgmail.com'></input>
                 <button className='ft-input-btn'><img src="https://img.icons8.com/external-kmg-design-detailed-outline-kmg-design/24/ffffff/external-send-user-interface-kmg-design-detailed-outline-kmg-design.png" alt='icon' /></button>
               </div>
-              {/* <div className='d-flex mt-5'>
+              <div className='d-flex justify-content-between mt-5'>
                 <a href='/'>
-                  <img src="https://img.icons8.com/glyph-neue/50/95A5A6/twitter-squared.png" alt='social-icon' className='ft-social-icon' />
+                  <img src="https://img.icons8.com/ios-filled/32/ffffff/facebook--v1.png" alt='social-icon' className='ft-social-icon' />
                 </a>
                 <a href='/'>
-                  <img src="https://img.icons8.com/ios-filled/50/95A5A6/facebook--v1.png" alt='social-icon' className='ft-social-icon' />
+                  <img src="https://img.icons8.com/ios-filled/32/ffffff/twitter-squared.png" alt='social-icon' className='ft-social-icon' />
                 </a>
                 <a href='/'>
-                  <img src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/40/95A5A6/external-cloud-based-instant-messaging-telegram-mobile-app-logotype-logo-bold-tal-revivo.png" alt='social-icon' className='ft-social-icon' />
+                  <img src="https://img.icons8.com/ios-filled/32/ffffff/telegram-app.png" alt='social-icon' className='ft-social-icon' />
                 </a>
                 <a href='/'>
-                  <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook--v1.png" alt='social-icon' className='ft-social-icon' />
+                  <img src="https://img.icons8.com/ios-filled/32/ffffff/youtube-play.png" alt='social-icon' className='ft-social-icon' />
                 </a>
                 <a href='/'>
-                  <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook--v1.png" alt='social-icon' className='ft-social-icon' />
+                  <img src="https://img.icons8.com/ios-filled/32/ffffff/tiktok--v1.png" alt='social-icon' className='ft-social-icon' />
                 </a>
-              </div> */}
+                <a href='/'>
+                  <img src="https://img.icons8.com/ios-filled/32/ffffff/discord--v1.png" alt='social-icon' className='ft-social-icon' />
+                </a>
+
+              </div>
             </div>
           </div>
         </div>

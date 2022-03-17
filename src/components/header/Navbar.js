@@ -8,7 +8,7 @@ import { ReactComponent as WalletIcon } from '../../media/wallet.svg'
 const Navbar = () => {
     return (
         <nav className="container-fluid d-flex justify-content-center navbar navbar-expand-lg navbar-light fixed-top">
-            <div className='container'>
+            <div className='container '>
                 <NavLink className="navbar-brand" id="brand-title" to="/"><img alt="logo" src={"/images/logo.png"} className='logo-img'></img></NavLink>
                 <button className="navbar-toggler toggle-btn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon "></span>

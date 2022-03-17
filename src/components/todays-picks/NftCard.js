@@ -2,7 +2,7 @@ import React from 'react'
 
 const NftCard = ({ image }) => {
     return (
-        <div className='col-sm-3 mt-4'>
+        <div className='col-sm-3 mt-4 d-flex justify-content-center'>
             <div className='row nft-single-div'>
                 <div className='col-12'>
                     <div className='row'>

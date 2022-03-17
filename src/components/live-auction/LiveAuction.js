@@ -8,7 +8,7 @@ const LiveAuction = () => {
   return (
     <div className='container mt-5 pb-5'>
       <div className='row d-flex'>
-        <div className='col-6'>
+        <div className='col-6 pl-0'>
           <p className='heading1 text-start'>Live Auctions</p>
         </div>
         <div className='col-6 d-flex justify-content-end'>

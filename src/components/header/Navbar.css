@@ -5,6 +5,9 @@
     border-bottom: 2px groove rgb(117, 114, 114);
     max-height: 70px;
 }
+.navbar-container{
+    background-color: #141420;
+}
 .logo-img{
     width: 50px;
     margin-right: 50px;
@@ -30,7 +33,7 @@
     border: 1px solid #73DF4E;
     background-color: transparent;
     border-radius: 100px;
-    padding: 7px 15px 7px 15px;
+    padding: 8px 15px 7px 15px;
     color: white;
     font-size: 14px;
 }

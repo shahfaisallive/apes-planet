@@ -1,6 +1,23 @@
 body{
     background-color: #141420;
     padding-top: 80px;
+    font-family: Calibri, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+.bg-item1{
+    position: absolute;
+    right: -300px;
+    top: 800px;
+    z-index: -1;
+    opacity: 0.3;
+}
+.bg-item2{
+    position: absolute;
+    left: -300px;
+    top: 2500px;
+    z-index: -1;
+    opacity: 0.6;
+    width: 40%;
 }
 .heading1{
     font-size: 24px;
@@ -15,6 +32,12 @@ body{
 }
 .heading2:hover{
     color: #86868d;
+}
+.heading3{
+    font-size: 24px;
+    color: rgb(207, 191, 191);
+    margin-top: 10px;
+    margin-right: 20px;
 }
 .nft-single-div{
     width: 100%;
