@@ -41,7 +41,7 @@ const Navbar = () => {
                         <li className='nav-item'>
                             <button className='wallet-connect-btn'>
                                 {/* <WalletIcon /> */}
-                                <img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/ffffff/external-wallet-interface-kiranshastry-solid-kiranshastry-1.png" alt='wallet-icon' className='wallet-icon' />
+                                <img src={"/images/wallet.png"} alt='wallet-icon' className='wallet-icon' />
                                 Wallet connect
                             </button>
                         </li>

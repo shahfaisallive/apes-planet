@@ -30,7 +30,7 @@ const Header = () => {
                     <p className='header-txt3'>Solana Blockchain</p>
 
                     <button className='header-btn'>
-                        <img src="https://img.icons8.com/material-rounded/24/ffffff/rocket.png" alt='wallet-icon' className='wallet-icon' />
+                        <img src={"/images/rocket.png"} alt='wallet-icon' className='wallet-icon' />
                         Explore
                     </button>
                 </div>
